@@ -1,0 +1,18 @@
+{
+  "name": "tick-prices",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "shadow-cljs watch app",
+    "watch": "shadow-cljs watch app",
+    "release": "shadow-cljs watch app"
+  },
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-vis": "^1.11.7"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.8.109"
+  }
+}

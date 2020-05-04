@@ -1,5 +1,5 @@
 (ns tick-prices.views.line-chart
-  (:require [cljsjs.react-vis :as rvis]
+  (:require ["react-vis" :as rvis]
             [tick-prices.util :refer [split-by]]))
 
 (defn- first-y [data]

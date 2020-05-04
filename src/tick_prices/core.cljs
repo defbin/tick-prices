@@ -6,6 +6,6 @@
 (defn mount-root []
   (d/render [app] (.getElementById js/document "app")))
 
-(defn init! []
+(defn ^:export init []
   (state/init)
   (mount-root))

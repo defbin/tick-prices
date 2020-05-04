@@ -5,7 +5,7 @@
   :app/init
   (constantly
     {:prices   []
-     :interval     1000
+     :interval     10000
      :recent-limit 10}))
 
 (defn- on-tick-price-done [db value]
